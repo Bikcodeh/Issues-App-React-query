@@ -290,6 +290,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@react-leaflet/core@^2.1.0":
+  version "2.1.0"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@react-leaflet/core/-/core-2.1.0.tgz#383acd31259d7c9ae8fb1b02d5e18fe613c2a13d"
+  integrity sha512-Qk7Pfu8BSarKGqILj4x7bCSZ1pjuAPZ+qmRwH5S7mDS91VSbVVsJSrW4qA+GPrro8t69gFYVMWb1Zc4yFmPiVg==
+
 "@remix-run/router@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.2.tgz#1c17eadb2fa77f80a796ad5ea9bf108e6993ef06"
@@ -356,6 +361,13 @@
   integrity sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==
   dependencies:
     "@types/react" "*"
+
+"@types/react-leaflet@^3.0.0":
+  version "3.0.0"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@types/react-leaflet/-/react-leaflet-3.0.0.tgz#b27a50abb6e3ae734d3c15399a26c77c161cab1c"
+  integrity sha512-p8R9mVKbCDDqOdW+M6GyJJuFn6q+IgDFYavFiOIvaWHuOe5kIHZEtCy1pfM43JIA6JiB3D/aDoby7C51eO+XSg==
+  dependencies:
+    react-leaflet "*"
 
 "@types/react@*", "@types/react@^18.0.22":
   version "18.0.24"
@@ -1106,6 +1118,13 @@ react-is@^18.0.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
+react-leaflet@*:
+  version "4.2.1"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/react-leaflet/-/react-leaflet-4.2.1.tgz#c300e9eccaf15cb40757552e181200aa10b94780"
+  integrity sha512-p9chkvhcKrWn/H/1FFeVSqLdReGwn2qmiobOQGO3BifX+/vV/39qhY8dGqbdcPh1e6jxh/QHriLXr7a4eLFK4Q==
+  dependencies:
+    "@react-leaflet/core" "^2.1.0"
 
 react-markdown@^8.0.3:
   version "8.0.3"
