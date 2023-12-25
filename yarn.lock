@@ -295,6 +295,30 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.2.tgz#1c17eadb2fa77f80a796ad5ea9bf108e6993ef06"
   integrity sha512-GRSOFhJzjGN+d4sKHTMSvNeUPoZiDHWmRnXfzaxrqe7dE/Nzlc8BiMSJdLDESZlndM7jIUrZ/F4yWqVYlI0rwQ==
 
+"@tanstack/query-core@5.14.2":
+  version "5.14.2"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@tanstack/query-core/-/query-core-5.14.2.tgz#ef0c1a93e142d5cce90b0ac2d0333a88fc0fbb95"
+  integrity sha512-QmoJvC72sSWs3hgGis8JdmlDvqLfYGWUK4UG6OR9Q6t28JMN9m2FDwKPqoSJ9YVocELCSjMt/FGjEiLfk8000Q==
+
+"@tanstack/query-devtools@5.14.6":
+  version "5.14.6"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@tanstack/query-devtools/-/query-devtools-5.14.6.tgz#a95dffc6635659a092a0f36a48d6891f62c92b2b"
+  integrity sha512-Kj820qMnyrTodqznWGnYQzef4SSsGrTnz6kW2ViFesA/ikJ79Rz+GB327Tx+xr8rSEsF4MTKEB8oH8+PKpXL4g==
+
+"@tanstack/react-query-devtools@^5.14.6":
+  version "5.14.6"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@tanstack/react-query-devtools/-/react-query-devtools-5.14.6.tgz#e68923e6d5b0417fdb5848382fa3f725a321086f"
+  integrity sha512-RR+y3hrv8BzFCa0tPA6Vi2lvlMDORBzNGwjDRHTTowUcx84xElbJbgB0O82HO4gYWaXMFJC4Lr2w4QfvMRVVeg==
+  dependencies:
+    "@tanstack/query-devtools" "5.14.6"
+
+"@tanstack/react-query@^5.14.6":
+  version "5.14.6"
+  resolved "https://npm.artifacts.furycloud.io/repository/all/@tanstack/react-query/-/react-query-5.14.6.tgz#40d51832d1ca6c9e28d3e48fd44c116d9ce28296"
+  integrity sha512-+INnJdq/904d+K2XQjqdIC58glpNGfQ8Xz93M6WBeJs5FPGFV8SEuFVzPtW/bKZ/Hu7hAiJpbFLDg5Lysvwmuw==
+  dependencies:
+    "@tanstack/query-core" "5.14.2"
+
 "@types/debug@^4.0.0":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
