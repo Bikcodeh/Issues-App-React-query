@@ -26,8 +26,15 @@ export const IssueItem: FC<Props> = ({ issue }) => {
             queryFn: () => getIssueComments(issue.number)
         });
     }
+
+    const preSetData = () => {
+            queryClient.setQueryData(
+                ['issue', issue.number],
+                issue
+            )
+    }
     return (
-        <div onMouseEnter={onMouseEnter} className="card mb-2 issue" onClick={() => navigate(`/issues/issue/${issue.number}`)}>
+        <div onMouseEnter={preSetData} className="card mb-2 issue" onClick={() => navigate(`/issues/issue/${issue.number}`)}>
             <div className="card-body d-flex align-items-center">
 
                 {
