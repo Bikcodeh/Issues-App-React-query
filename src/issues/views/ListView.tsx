@@ -29,6 +29,11 @@ export const ListView = () => {
             ? (<LoadingIcon />)
             : (<IssueList issues={issuesQuery.data || []} state={state} onStateChanged={(newState) => setState(newState)} />)
         }
+        <div className='d-flex justify-content-between mt-2'>
+          <button className='btn btn-outline-primary'>Prev</button>
+          <span>1</span>
+          <button className='btn btn-outline-primary'>Next</button>
+        </div>
       </div>
 
       <div className="col-4">
